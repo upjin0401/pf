@@ -742,6 +742,19 @@ svg {
    display: none;
 }
 }
+
+@media (max-width:1600px) {
+    #profile .skill_box{width: 45%;}
+      
+     
+ 
+    }
+  
+
+
+
+
+
 @media (max-width:1400px) {
     #profile .skill_box {
        
@@ -911,6 +924,11 @@ svg {
 #graphic_port .port_img li{width:calc(100%/3); float: left;}
 #graphic_port .port_img li img{width: 100%; display: block;}
 
+@media (max-width: 1800px) {
+    #graphic_port { padding: 0; }
+   
+   
+  }
 
 
 /* charactor */
@@ -970,10 +988,8 @@ svg {
 
 @media (max-width: 1800px) {
     #charactor .txt{width: 100%; position: absolute; left: 100px; top: 120px;}
-  
-  #charactor .emo li:last-child {
-    margin: 0;
-}
+    #charactor .emo li{width: 200px; height: 200px;}
+
 }
 
 
@@ -1122,6 +1138,15 @@ svg {
 
 .opacity-low {
   opacity: 0.5;
+}
+
+@media (max-width:1800px){
+   
+  
+    .gallery-image {
+        padding: 10px;
+  
+      }
 }
 
 
